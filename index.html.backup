@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <title>Pluzman - Telegram Topluluğu</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="Pluzman Telegram grubu, profili ve botuna hoş geldiniz. Telegram topluluğumuzla bağlantıda kalın.">
+  <meta name="keywords" content="telegram, grup, bot, pluzman, topluluk">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/style.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Menü</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!-- Logo text or image -->
+        <a class="navbar-brand" href="index.html">
+          <i class="fab fa-telegram-plane" style="font-size: 24px; color: #0088cc; margin-right: 8px;"></i>
+          <span style="color: #fff; font-weight: 700;">Pluzman</span>
+        </a>
+
+      </div>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="#intro">Ana Sayfa</a></li>
+          <li><a href="#about">Hakkımızda</a></li>
+          <li><a href="#services">Hizmetlerimiz</a></li>
+          <li><a href="#group">Telegram Grubu</a></li>
+          <li><a href="#contacts">İletişim</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <section id="intro" class="bg-dark">
+      <div class="intro-content">
+        <div class="telegram-logo">
+          <i class="fab fa-telegram-plane" style="font-size: 120px; color: #0088cc; margin-bottom: 20px;"></i>
+        </div>
+        <h1 style="color: #fff; font-size: 3.5em; margin-bottom: 20px; font-weight: 700;">Pluzman</h1>
+        <p style="color: #ccc; font-size: 1.3em; margin-bottom: 30px;">Telegram Topluluğuna Hoş Geldiniz</p>
+        <a href="#about" class="btn scroll animated fadeInUp">Keşfet</a>
+      </div>
+  </section>
+
+  <section id="about" class="home-section bg-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Pluzman Telegram Topluluğu</h2>
+            <div class="heading-line"></div>
+            <p>Aktif bir Telegram topluluğu olarak sizlere çeşitli hizmetler sunuyoruz</p>
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 description-img">
+          <div style="background: linear-gradient(135deg, #0088cc, #005588); padding: 60px; border-radius: 15px; text-align: center;">
+            <i class="fab fa-telegram-plane" style="font-size: 80px; color: #fff; margin-bottom: 20px;"></i>
+            <h3 style="color: #fff; margin-bottom: 15px;">Telegram Ekosistemi</h3>
+            <p style="color: #e6f3ff;">Güçlü bir topluluk ve gelişmiş bot hizmetleri</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>Telegram topluluğumuzla bağlantıda kalın</h2>
+          <p>Pluzman olarak, Telegram platformunda aktif bir topluluk oluşturduk. Grubumuzda paylaşımlar yapabilir, sorularınızı sorabilir ve botumuzdan faydalanabilirsiniz.</p>
+          <div style="margin-top: 30px;">
+            <div style="display: flex; align-items: center; margin-bottom: 15px;">
+              <i class="fas fa-users" style="color: #0088cc; font-size: 20px; margin-right: 15px;"></i>
+              <span>Aktif Telegram grubu</span>
+            </div>
+            <div style="display: flex; align-items: center; margin-bottom: 15px;">
+              <i class="fas fa-robot" style="color: #0088cc; font-size: 20px; margin-right: 15px;"></i>
+              <span>Gelişmiş Telegram botu</span>
+            </div>
+            <div style="display: flex; align-items: center; margin-bottom: 15px;">
+              <i class="fas fa-user" style="color: #0088cc; font-size: 20px; margin-right: 15px;"></i>
+              <span>Kişisel Telegram profili</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="home-section bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2 style="color: #fff;">Hizmetlerimiz</h2>
+            <div class="heading-line"></div>
+            <p style="color: #ccc;">Telegram üzerinden sunduğumuz hizmetler</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-item" style="background: #2c3e50; padding: 40px 30px; border-radius: 15px; margin-bottom: 30px; text-align: center; transition: transform 0.3s;">
+            <i class="fas fa-users" style="font-size: 50px; color: #0088cc; margin-bottom: 20px;"></i>
+            <h3 style="color: #fff; margin-bottom: 15px;">Telegram Grubu</h3>
+            <p style="color: #bdc3c7; margin-bottom: 25px;">Aktif topluluğumuzla etkileşime geçin, sorularınızı sorun ve deneyimlerinizi paylaşın.</p>
+            <a href="https://telegram.me/pluzmna/" target="_blank" class="btn" style="background: #0088cc; color: #fff; padding: 10px 25px; border-radius: 25px; text-decoration: none;">
+              <i class="fab fa-telegram-plane"></i> Gruba Katıl
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="service-item" style="background: #2c3e50; padding: 40px 30px; border-radius: 15px; margin-bottom: 30px; text-align: center; transition: transform 0.3s;">
+            <i class="fas fa-user-circle" style="font-size: 50px; color: #27ae60; margin-bottom: 20px;"></i>
+            <h3 style="color: #fff; margin-bottom: 15px;">Kişisel Profil</h3>
+            <p style="color: #bdc3c7; margin-bottom: 25px;">Doğrudan benimle iletişime geçin ve sorularınızı özel olarak sorun.</p>
+            <a href="https://telegram.me/pluzman" target="_blank" class="btn" style="background: #27ae60; color: #fff; padding: 10px 25px; border-radius: 25px; text-decoration: none;">
+              <i class="fab fa-telegram-plane"></i> Mesaj Gönder
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="service-item" style="background: #2c3e50; padding: 40px 30px; border-radius: 15px; margin-bottom: 30px; text-align: center; transition: transform 0.3s;">
+            <i class="fas fa-robot" style="font-size: 50px; color: #e74c3c; margin-bottom: 20px;"></i>
+            <h3 style="color: #fff; margin-bottom: 15px;">Tavsiye Botu</h3>
+            <p style="color: #bdc3c7; margin-bottom: 25px;">Gelişmiş botumuz size çeşitli tavsiyeler ve bilgiler sunmak için tasarlandı.</p>
+            <a href="https://telegram.me/tavsiyeebot" target="_blank" class="btn" style="background: #e74c3c; color: #fff; padding: 10px 25px; border-radius: 25px; text-decoration: none;">
+              <i class="fas fa-robot"></i> Botu Başlat
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="group" class="home-section bg-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Telegram Grubumuz</h2>
+            <div class="heading-line"></div>
+            <p>Aktif topluluğumuzla bağlantı kurun ve güncel gelişmeleri takip edin</p>
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 content">
+          <h2>Topluluk</h2>
+          <p>Telegram grubumuzda günlük paylaşımlar, faydalı içerikler ve topluluğumuzla etkileşim imkanı bulabilirsiniz. Sorularınızı sorabilir, deneyimlerinizi paylaşabilir ve yeni arkadaşlıklar kurabilirsiniz.</p>
+          
+          <div style="margin-top: 30px; background: #f8f9fa; padding: 25px; border-radius: 10px; border-left: 4px solid #0088cc;">
+            <h4 style="color: #0088cc; margin-bottom: 15px;">
+              <i class="fas fa-info-circle"></i> Grup Bilgileri
+            </h4>
+            <ul style="list-style: none; padding: 0;">
+              <li style="margin-bottom: 10px;">
+                <i class="fas fa-users" style="color: #0088cc; margin-right: 10px;"></i>
+                Aktif ve dost topluluk
+              </li>
+              <li style="margin-bottom: 10px;">
+                <i class="fas fa-comments" style="color: #0088cc; margin-right: 10px;"></i>
+                Günlük sohbet ve paylaşımlar
+              </li>
+              <li style="margin-bottom: 10px;">
+                <i class="fas fa-question-circle" style="color: #0088cc; margin-right: 10px;"></i>
+                Sorularınıza hızlı yanıt
+              </li>
+              <li>
+                <i class="fas fa-heart" style="color: #e74c3c; margin-right: 10px;"></i>
+                Yardımsever üyeler
+              </li>
+            </ul>
+          </div>
+          
+          <div style="margin-top: 25px;">
+            <a href="https://telegram.me/pluzmna/" target="_blank" class="btn" style="background: #0088cc; color: #fff; padding: 15px 30px; border-radius: 25px; text-decoration: none; font-size: 18px;">
+              <i class="fab fa-telegram-plane"></i> Şimdi Gruba Katıl
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-md-6 content">
+          <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px; border-radius: 15px; text-align: center; color: white;">
+            <i class="fab fa-telegram-plane" style="font-size: 60px; margin-bottom: 20px;"></i>
+            <h3 style="margin-bottom: 20px;">@pluzmna</h3>
+            <p style="margin-bottom: 25px; opacity: 0.9;">Telegram grubumuzda bizi bulabilirsiniz. Topluluk kurallarımıza uyarak keyifli sohbetlere katılabilirsiniz.</p>
+            
+            <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-top: 20px;">
+              <h5 style="margin-bottom: 15px;">Grup Kuralları:</h5>
+              <ul style="list-style: none; padding: 0; text-align: left; font-size: 14px;">
+                <li style="margin-bottom: 8px;">• Saygılı ve nazik olun</li>
+                <li style="margin-bottom: 8px;">• Spam yapmayın</li>
+                <li style="margin-bottom: 8px;">• Konuyla ilgili paylaşımlar yapın</li>
+                <li>• Yardımlaşmayı unutmayın</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="home-section bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2 style="color: #fff;">İletişim</h2>
+            <div class="heading-line"></div>
+            <p style="color: #ccc;">Bizimle iletişime geçmek için aşağıdaki Telegram linklerini kullanabilirsiniz</p>
+          </div>
+        </div>
+      </div>
+
+      <!--div class="col-md-6" -->
+        <a href="https://github.com/Stream4me" class="btn" target=”_blank”><i class="fa fa-github"></i><span>GitHub</span></a>
+      <!-- /div -->
+
+    </div>
+  </section>
+
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <p>Kodi © è un marchio registrato di XBMC Foundation. Non siamo collegati o in nessun altro modo affiliati con Kodi, Team Kodi o la Fondazione XBMC. Inoltre, qualsiasi software, add-on o prodotti da noi offerti non riceveranno supporto nei canali ufficiali di Kodi, inclusi i forum di Kodi e vari social network.</p>
+        </div>
+        <div class="col-md-6">
+            <i>Kodi © is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation. Furthermore, any software, add-ons, or products offered by us will receive no support in official Kodi channels, including the Kodi forums and various social networks.</i>
+        </div>
+        <div class="col-md-12">
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Alstar
+            -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

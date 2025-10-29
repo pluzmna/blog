@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pluzman Gaming Portal 🎮</title>
+    <meta name="description" content="Oyuncu Portalı - Modern Gaming Hub">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./static/css/style.css">
+    
+    <!-- Telegram Web App Script -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-gamepad"></i>
+                    <h1>Pluzman Gaming</h1>
+                </div>
+                <button class="drawer-toggle" id="drawerToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Hero Section -->
+            <section class="hero">
+                <h2 class="hero-title">Hoş Geldin Oyuncu! 🎮</h2>
+                <p class="hero-subtitle">Modern gaming hub'ına hoş geldin. Ücretsiz oyunlar, haberler ve daha fazlası!</p>
+                
+                <!-- Tech Badges -->
+                <div class="tech-badges">
+                    <span class="badge"><i class="fab fa-python"></i> Python</span>
+                    <span class="badge"><i class="fab fa-js"></i> JavaScript</span>
+                    <span class="badge"><i class="fab fa-react"></i> React</span>
+                    <span class="badge"><i class="fas fa-database"></i> MongoDB</span>
+                    <span class="badge"><i class="fab fa-node-js"></i> Node.js</span>
+                    <span class="badge"><i class="fas fa-bolt"></i> FastAPI</span>
+                </div>
+            </section>
+
+            <!-- Free Games Section -->
+            <section class="section">
+                <h3 class="section-title">
+                    <i class="fas fa-gift"></i>
+                    Ücretsiz Oyunlar
+                </h3>
+                <div class="games-grid" id="gamesGrid">
+                    <div class="loading">Oyunlar yükleniyor...</div>
+                </div>
+            </section>
+
+            <!-- Gaming News Section -->
+            <section class="section">
+                <h3 class="section-title">
+                    <i class="fas fa-newspaper"></i>
+                    Oyun Haberleri
+                </h3>
+                <div class="news-grid" id="newsGrid">
+                    <div class="loading">Haberler yükleniyor...</div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Right Drawer -->
+    <div class="drawer" id="drawer">
+        <div class="drawer-header">
+            <h3><i class="fas fa-link"></i> Bağlantılar</h3>
+            <button class="drawer-close" id="drawerClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="drawer-content" id="drawerContent">
+            <div class="loading">Linkler yükleniyor...</div>
+        </div>
+    </div>
+
+    <!-- Drawer Overlay -->
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Pluzman Gaming</h4>
+                    <p>Oyuncular için yapıldı 💜</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Sosyal Medya</h4>
+                    <div class="social-links">
+                        <a href="https://t.me/Pluzman" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="https://s.team/chat/P6OS1Ier" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-steam"></i>
+                        </a>
+                        <a href="https://github.com/pluzmna" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Bağlantılar</h4>
+                    <a href="https://t.me/tavsiyeebot?startapp" target="_blank" rel="noopener noreferrer">Telegram Bot</a>
+                    <a href="https://chat.google.com/room/AAQASXQ84gU?cls=7" target="_blank" rel="noopener noreferrer">Google Chat</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pluzman Gaming. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="./static/js/app.js"></script>
+</body>
+</html>

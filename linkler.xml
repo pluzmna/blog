@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<linkler>
+    <!-- İletişim -->
+    <kategori id="iletisim" isim="İletişim">
+        <link>
+            <baslik>E-posta</baslik>
+            <url>mailto:dgiymat@gmail.com</url>
+            <aciklama>dgiymat@gmail.com</aciklama>
+            <ikon>fas fa-envelope</ikon>
+        </link>
+        <link>
+            <baslik>Telegram Grup</baslik>
+            <url>https://telegram.me/pluzmna</url>
+            <aciklama>Grup</aciklama>
+            <ikon>fab fa-telegram</ikon>
+        </link>
+    </kategori>
+
+    <!-- Sosyal Medya -->
+    <kategori id="sosyal" isim="Sosyal Medya">
+        <link>
+            <baslik>Steam Profil</baslik>
+            <url>https://s.team/chat/P6OS1Ier</url>
+            <aciklama>Steam</aciklama>
+            <ikon>fab fa-steam</ikon>
+        </link>
+        <link>
+            <baslik>Telegram Bot</baslik>
+            <url>https://telegram.me/tavsiyeebot/pluzman</url>
+            <aciklama>Bot</aciklama>
+            <ikon>fab fa-telegram</ikon>
+        </link>
+        <link>
+            <baslik>Sesle Chat</baslik>
+            <url>https://www.seslee.com/join.php?code=9963c3d170aa639435be993f6e9b7d5e</url>
+            <aciklama>Sesli sohbet</aciklama>
+            <ikon>fas fa-microphone</ikon>
+        </link>
+        <link>
+            <baslik>Twitch TV</baslik>
+            <url>https://www.twitch.tv/pluzfans</url>
+            <aciklama>Yayın</aciklama>
+            <ikon>fab fa-twitch</ikon>
+        </link>
+        <link>
+            <baslik>Reddit</baslik>
+            <url>https://www.reddit.com/user/CommunicationLevel72/</url>
+            <aciklama>Forum</aciklama>
+            <ikon>fab fa-reddit</ikon>
+        </link>
+        <link>
+            <baslik>YouTube</baslik>
+            <url>https://www.youtube.com/@plusjell6172/posts</url>
+            <aciklama>Video</aciklama>
+            <ikon>fab fa-youtube</ikon>
+        </link>
+    </kategori>
+
+    <!-- Diğer Bağlantılar -->
+    <kategori id="diger" isim="Diğer Bağlantılar">
+        <link>
+            <baslik>Geri Bildirim</baslik>
+            <url>https://github.com/pluzmna/blog/discussions</url>
+            <aciklama>Tartışma</aciklama>
+            <ikon>fas fa-comments</ikon>
+        </link>
+        <link>
+            <baslik>Sticker Pack</baslik>
+            <url>https://t.me/addstickers/t_me_addstickers_Kosmos_by_fStikBot</url>
+            <aciklama>Çıkartma</aciklama>
+            <ikon>fas fa-laugh</ikon>
+        </link>
+        <link>
+            <baslik>Tema Paketi</baslik>
+            <url>https://t.me/addtheme/pluzman2</url>
+            <aciklama>Tema</aciklama>
+            <ikon>fas fa-palette</ikon>
+        </link>
+        <link>
+            <baslik>GitHub</baslik>
+            <url>https://gist.github.com/pluzmna</url>
+            <aciklama>Kod</aciklama>
+            <ikon>fab fa-github</ikon>
+        </link>
+        <link>
+            <baslik>Archive.org</baslik>
+            <url>https://archive.org/details/@_plus_jell</url>
+            <aciklama>Arşiv</aciklama>
+            <ikon>fas fa-archive</ikon>
+        </link>
+        <link>
+            <baslik>Çöplükler</baslik>
+            <url>https://github.com/Langamexx/Hidden-folder/issues</url>
+            <aciklama>İssues</aciklama>
+            <ikon>fas fa-trash</ikon>
+        </link>
+    </kategori>
+</linkler>
